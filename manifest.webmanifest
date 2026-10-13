@@ -1,0 +1,23 @@
+{
+  "name": "Codeweg — Programmieren lernen",
+  "short_name": "Codeweg",
+  "description": "Programmieren lernen auf Deutsch: Grundlagen, Web-Apps, Smartphone-Apps, PC-Anwendungen, Daten und Werkzeuge.",
+  "lang": "de",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Üben", "short_name": "Üben", "url": "./#/ueben" },
+    { "name": "Lexikon", "short_name": "Lexikon", "url": "./#/glossar" }
+  ]
+}
